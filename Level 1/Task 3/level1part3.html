@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="level1part3.css">
+</head>
+<body>
+   <div class="moving-bar">Calculator</div>
+    <div class="calc" onkeydown="handleKeyPress(event)">
+        <input type="text" id="display" disabled>
+        <div class="firstline">
+            <button class="calculation"  onclick="appendToDisplay('(')">(</button>
+            <button class="calculation"  onclick="appendToDisplay(')')">)</button>
+
+            <button class="calculation"  onclick="clearDisplay()">Cl</button>
+            <button class="calculation backspace"  onclick="clearDisplay1()"> ⌦ </button>
+            
+        
+            
+           
+       
+        </div>
+        
+        <div class="secondline">
+            <button class="calculation" onclick="operate('ln')">ln</button>
+            <button class="calculation" onclick="operate('log')">log</button>
+           
+            <button class="calculation" onclick="operate('*')">*</button>
+            
+            <button class="calculation" onclick="operate('^')">^</button>
+       
+        
+        
+    </div>
+        <div class="thirdline">
+            <button onclick="appendToDisplay(7)">7</button>
+        <button onclick="appendToDisplay(8)">8</button>
+        <button onclick="appendToDisplay(9)">9</button>
+        <button class="calculation" onclick="operate('+')">+</button>
+        
+        
+    </div>
+    <div class="fourthline">
+        <button  onclick="appendToDisplay(4)">4</button>
+        <button onclick="appendToDisplay(5)">5</button>
+        <button onclick="appendToDisplay(6)">6</button>
+        <button class="calculation" onclick="operate('-')">-</button>    
+        
+        </div>
+       
+        <div class="fifthline">
+                 
+       
+        <button onclick="appendToDisplay(1)">1</button>
+        <button onclick="appendToDisplay(2)">2</button>
+        <button onclick="appendToDisplay(3)">3</button>
+        <button class="calculation" onclick="operate('/')">/</button>
+            
+            
+           
+            
+
+            
+            
+        </div>
+        <div class="sixthline">
+            <button class="calculation" onclick="operate('1/x')">1/x</button>
+            <button onclick="appendToDisplay(0)">0</button>
+            <button class="calculation" onclick="appendToDisplay('.')">.</button>
+            <button class="calculate" onclick="calculate()">=</button>
+           
+           
+            
+        </div>
+
+           
+            
+        
+
+    </div>
+
+    <script src="level1part3.js"></script>
+    
+</body>
+</html>

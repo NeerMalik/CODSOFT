@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#about {
+    display: flex;
+    align-items: center; 
+    flex-direction: row-reverse; 
+    animation: slideInFromLeft 1s forwards;
+}
+
+#about img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 20px; 
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#about p {
+    flex: 1; 
+        text-wrap: wrap;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.project{
+    animation: slideInFromLeft  3s forwards;
+    
+}
+.project1{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    
+}
+.project2{
+    width:400px;
+    height: auto;
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+.resume{
+    text-align: center;
+}
+.image1{
+  
+}
