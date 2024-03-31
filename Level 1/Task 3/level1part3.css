@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color:#8f8d8d;
+    margin: 0;
+    padding: 0;
+}
+.calc{
+    
+    margin: 50px auto;
+    padding:30px;
+    border:1px solid;
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 36%;
+    top: 15%;
+    background-color: grey;
+    width: 400px;
+    height: auto;
+   
+    
+}
+input{
+    width: 100%;
+    margin-bottom:5px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    text-align: right;
+    height: 50px;
+    font-size: x-large;
+}
+button{
+    width:100%;
+    padding:15px;
+    margin:5px;
+    font-size:18px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-weight: bolder;
+}
+.firstline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.secondline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.thirdline{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.fourthline{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.fifthline{
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sixthline{
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+.moving-bar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;   
+    font-size: 100px;
+
+}
+.calculate{
+    background-color: #df6d08;
+}
+.calculation{
+    background-color: darkgray;
+}
+.backspace{
+    transform: rotate(180deg);
+}

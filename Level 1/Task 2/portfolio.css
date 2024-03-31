@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(0, 0, 33);
+    color:rgba(254, 235, 254, 0.93)
+}
+*{
+    scroll-behavior: smooth;
+    margin:0;
+    padding: 0;
+    z-index: 0;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin:0 26px;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color:rgba(254, 235, 254, 0.92);
+   
+}
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgba(235, 240, 253, 0.927);
+ }
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 79px;
+    background-color: rgba(18, 18, 39);
+}
+.left{
+    font-size: 1.9rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 131px 0;
+    align-items: center;
+   
+
+    
+}
+.firstsection>div{
+    
+    width:31%;
+}
+.leftsection{
+    
+    font-size:2.9rem;
+   
+    
+}
+
+.rightsection img{
+    width: 79%;
+    
+    
+
+}
+.purple{
+    color:rgba(138, 44, 230, 0.918);
+}
+#element{
+    color:rgba(138, 44, 230, 0.932);
+
+}
+
+.secondsection{
+    max-width: 89vw;
+   margin:auto; 
+   height:401px;
+
+}
+main hr{
+    background-color: rgba(255, 255, 255, 0.923);
+    border:0;
+    height:1px;
+    margin:61px 86px;
+
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.textgray{
+    color:rgba(129, 129, 129, 0.958);
+}
+.secondsection .box{
+    background:rgba(253, 253, 253, 0.916);
+    width:81vw;
+    height:2px;
+    margin:57px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height:93px;
+    width:1px;
+    background-color: rgba(253, 253, 253, 0.902);
+    margin:0 161px;
+
+}
+.image-top{
+    width:25px;
+    position:relative;
+    left:-9px;
+    top:-34px;
+
+}
+.vertical-title{
+    position:relative;
+    top:76px;
+    width:151px;
+
+}
+.vertical-desc{
+    position:relative;
+    top:87px;
+    color:rgba(125, 125, 125, 0.95);
+    width:151px;
+    font-size: 10px;
+
+}
+footer{
+    background-color:#0e0e1af0 ;
+   
+    
+}
+.footer{
+    display: flex;
+    padding:24px 123px;
+    justify-content: space-evenly;
+    line-height: 39px;
+    margin-left:16px;
+
+    
+
+}
+.footer ul li a{
+    text-decoration: none;
+    color:rgba(245, 245, 245, 0.9);
+   
+}
+.footer ul li {
+    list-style: none;
+    color:rgba(245, 245, 245, 0.924);
+   
+}
+.footer>div{
+    width:239px;
+}
+.footer-rights{
+    text-align: center;
+    position: relative;
+    left: -475px;
+    
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+    margin-left: 100px;;
+    
+
+}
+.project1 {
+   
+    width: 501px;
+    height: auto;
+    
+
+}
+.project2 {
+    width: 501px;
+   
+    
+}
+.project2 img{
+    width:601px;
+    height:273px;
+    border:2.1px solid blueviolet;
+    border-radius: 9px;
+
+
+}
+.project1 img{
+    width:601px;
+    height:273px;
+    border:2.1px solid blueviolet;
+    border-radius: 9px;
+}
+.final-heading{
+    margin-left:99px;
+    font-size: 29px;
+    margin-top:9px;
+    margin-bottom:19px;
+}
+.leftsection .buttons{
+    
+    padding:12px;
+    background:#1e2167;
+    color:white;
+    border: 1.9px solid rgba(249, 249, 249, 0.935);
+    border-radius: 11px;
+    font-size: 19px;
+    cursor:pointer
+
+    
+}
+.project1 img:hover{
+   transform: scale(1.2) ;
+   transition: transform 0.5s ease-in-out;
+}
+.project2 img:hover{
+    transform: scale(1.2) ;
+    transition: transform 0.5s ease-in-out;
+ }
+ .contact{
+    margin-left:550px;
+    font-size: 20px;
+   
+    width: 60%;
+ }
+ 
+.final-heading1{
+    margin-left:690px ;
+    font-size: 25px;
+}
+.submit1{
+    margin-left: 35px;
+    width:100px;
+    height: 30px;
+    background:#1e2167;
+    color:white;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer
+
+}
+.rightsection img{
+   
+  border:2px solid rgba(250, 245, 245, 0.922);
+  border-radius:100%;
+    animation:  hello 2s forwards;
+    cursor:pointer;
+}
+.rightsection img:hover{
+    transform: scale(1.25);
+    transition: transform 1s ease-in-out;
+    
+   
+    
+}
+@keyframes hello {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }   
+}
+.forms{
+    width:80%;
+    margin:0 auto;
+}
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(purple,blueviolet,blue,black);
+    border-radius:10px;
+    
+}
+::-webkit-scrollbar {
+    height: 200px; 
+}
+.header{
+    position: fixed;
+    width: 1600px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    opacity: 1;
+}
+
